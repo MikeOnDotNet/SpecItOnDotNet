@@ -9,7 +9,7 @@ namespace SpecItOnDotNet.AspNetCore.Parsers
 {
     public static class SpecificationsFromQueryExtensions
     {
-        public ICollection<ISpecification> GetSpecifications(this IQueryCollection queryCollection)
+        public static ICollection<ISpecification> GetSpecifications(this IQueryCollection queryCollection)
         {
             IEnumerable<ISpecificationFromQuery> specificationFromQueries;
             IEnumerable<ISpecificationsFromQuery> specificationsFromQueries;
